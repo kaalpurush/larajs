@@ -1,5 +1,5 @@
 @section('title')
-Larabone
+Larakendo
 @endsection
 @section('style')
 {{ HTML::style('css/kendo.common.min.css',array('type' => 'text/css')) }}
@@ -10,7 +10,7 @@ Larabone
 @endsection
 @section('script')
 {{ HTML::script('js/jquery.js',array('type' => 'text/javascript')) }}
-{{ HTML::script('js/kendo.web.min.js',array('type' => 'text/javascript')) }}
+{{ HTML::script('js/kendo.mobile.min.js',array('type' => 'text/javascript')) }}
 {{ HTML::script('js/kendo.js',array('type' => 'text/javascript')) }}
 <script type="text/javascript">
 $(document).ready(function() {

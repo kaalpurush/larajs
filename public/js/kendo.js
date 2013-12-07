@@ -1,4 +1,4 @@
-var userUrl="http://localhost/php.git/larajs/public/user"
+var userUrl="http://localhost/larajs.git/public/user"
 
 var users = new kendo.data.DataSource({
     schema: { model: {id:"id"} },
@@ -64,7 +64,7 @@ var layout = new kendo.Layout("baselayout");
 var usertemplate = new kendo.Layout("usertemplate", { model: userModel });
 
 
-kendo.bind($("#userlistview"), userModel);
+//kendo.bind($("#userlistview"), userModel);
 
 var app = new kendo.Router({
     init: function() {

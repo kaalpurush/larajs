@@ -1,6 +1,6 @@
 // models / data
 
-window.contentPath="http://localhost/php.git/larajs/public/websushi";
+window.contentPath="http://localhost/larajs.git/public/websushi/";
 
 var items = new kendo.data.DataSource({
     schema: { model: {} },

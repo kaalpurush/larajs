@@ -1,5 +1,5 @@
 define([], function () {
-    var domain = "localhost/php.git/larajs/public",
+    var domain = "localhost/larajs.git/public/",
         serverUrl = "http://" + domain,
         userUrl = serverUrl + "/home/user";
     
