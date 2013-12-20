@@ -22,10 +22,10 @@
 @section('header')
 @show
 </header>
-<section id="content">
+<!--<section id="content">-->
 @section('content')
 @show
-</section>
+<!--</section>-->
 <footer id="footer">
 @section('footer')
 @show

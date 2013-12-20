@@ -27,9 +27,9 @@ class HomeController extends BaseController {
 		$this->layout->content = View::make('home/backbone');
 	}
 	
-	public function getKendo()
+	public function getKendo($type='mobile')
 	{
-		$this->layout->content = View::make('home/kendo');
+		$this->layout->content = View::make('home/'.$type.'kendo');
 	}
 	
 	public function getSushi()
